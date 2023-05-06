@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maz</title>
+    <link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+rel="stylesheet"
+/>
+    <style>
+#play{
+    width: 100%;
+    max-width: 100%;
+}
+#play p{
+    width: 98%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#play textarea{
+    width: 98%;
+    min-height: 200px;
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid black;
+    margin-left: 10px;
+    background-color: rgba(184, 155, 155, 0.422);
+}
+#play select{
+    width: 98%;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: silver;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav style="border-radius: 50px;" class="navbar navbar-black bg-black">
+        <div class="container-fluid">
+          <span style="color: white; " class="navbar-brand mb-0 h1">Mazin-ED</span>
+          <img style="max-width: 60px; max-height: 60px; border-radius: 50%;" src="mm.jpg"/>
+        </div>
+      </nav>
+    <main id="play">
+        <p>text</p>
+        <select id="select-text">
+            <option value="encode">تشفير النص</option>
+            <option value="decode">فك تشفير النص</option>
+        </select>
+        <textarea id="text"></textarea>
+        <p>result-النتيجة</p>
+        <textarea id="result"></textarea>
+    </main>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
